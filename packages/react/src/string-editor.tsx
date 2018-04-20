@@ -6,6 +6,7 @@ import { Description } from './description'
 import { MarkdownTip } from 'markdown-tip-react'
 import { Select2, Select2UpdateValue, Select2Option } from 'select2-react-component'
 import { FileUploader } from 'file-uploader-react-component'
+import { getExtraTitleStyleName } from './utils'
 
 /**
  * @public
@@ -96,7 +97,7 @@ export class StringEditor extends React.Component<Props, State> {
 
     return (
       <div className={this.errorMessage ? this.props.theme.errorRow : this.props.theme.row}>
-        <label className={this.props.theme.title}>
+        <label className={ `${this.props.theme.title} ${ getExtraTitleStyleName(this.props.schema.title, this.props.theme.titleExtraStyle) }`}>
           {this.titleToShow}
           <div className={this.props.theme.buttonGroup} style={common.buttonGroupStyle}>
             <Optional required={this.props.required}

@@ -1,6 +1,6 @@
 {
-  "name": "react-schema-based-json-editor",
-  "version": "7.11.2",
+  "name": "react-json-editor-color-label",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "unpkg": "dist/react-schema-based-json-editor.min.js",
@@ -9,19 +9,15 @@
   "description": "A reactjs component of schema based json editor.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plantain-00/schema-based-json-editor.git"
+    "url": "https://github.com/Miloas/schema-based-json-editor"
   },
   "keywords": [
     "json",
     "schema",
     "react"
   ],
-  "author": "York Yao",
+  "author": "Miloas",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/plantain-00/schema-based-json-editor/issues"
-  },
-  "homepage": "https://github.com/plantain-00/schema-based-json-editor#readme",
   "files": [
     "dist"
   ],

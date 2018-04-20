@@ -3,6 +3,7 @@ import * as common from 'schema-based-json-editor'
 import { Icon } from './icon'
 import { Optional } from './optional'
 import { Description } from './description'
+import { getExtraTitleStyleName } from './utils'
 
 /**
  * @public
@@ -30,7 +31,7 @@ export class NullEditor extends React.Component<Props, State> {
   render () {
     return (
       <div className={this.props.theme.row}>
-        <label className={this.props.theme.title}>
+        <label className={ `${this.props.theme.title} ${ getExtraTitleStyleName(this.props.schema.title, this.props.theme.titleExtraStyle) }`}>
           {this.titleToShow}
           <div className={this.props.theme.buttonGroup} style={common.buttonGroupStyle}>
             <Optional required={this.props.required}

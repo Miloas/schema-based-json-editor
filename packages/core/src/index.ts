@@ -99,7 +99,7 @@ export type Schema = ObjectSchema | ArraySchema | NumberSchema | StringSchema | 
 /**
  * @public
  */
-export const themes: { [name: string]: Theme } = {
+export const themes: any = {
   bootstrap3: {
     card: 'well',
     row: 'row',
@@ -231,12 +231,20 @@ export const defaultTheme = {
   buttonGroup: 'schema-based-json-editor--button-group',
   title: 'schema-based-json-editor--title',
   description: 'schema-based-json-editor--description',
-  select: 'schema-based-json-editor--select'
+  select: 'schema-based-json-editor--select',
+
+  titleExtraStyle: {
+    green: 'schema-based-json-editor--greenTitle',
+    yellow: 'schema-based-json-editor--yellowTitle',
+    gray: 'schema-based-json-editor--grayTitle'
+  }
 }
 
 for (const themeName in themes) {
   for (const key in themes[themeName]) {
-    themes[themeName][key as keyof Theme] += ' ' + defaultTheme[key as keyof Theme]
+    if (key !== 'titleExtraStyle') {
+      themes[themeName][key as keyof Theme] += ' ' + defaultTheme[key as keyof Theme]
+    }
   }
 }
 
