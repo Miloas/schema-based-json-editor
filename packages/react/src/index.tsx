@@ -1,8 +1,8 @@
 import * as React from 'react'
-import * as common from 'schema-based-json-editor'
-export * from 'schema-based-json-editor'
+import * as common from 'json-editor-color-label'
+export * from 'json-editor-color-label'
 import { Editor } from './editor'
-import { Dragula, MarkdownItType, MarkdownIt, HLJS } from 'schema-based-json-editor/dist/libs'
+import { Dragula, MarkdownItType, MarkdownIt, HLJS } from 'json-editor-color-label/dist/libs'
 
 /**
  * @public

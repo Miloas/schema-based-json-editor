@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as common from 'schema-based-json-editor'
+import * as common from 'json-editor-color-label'
 import { ObjectEditor } from './object-editor'
 import { ArrayEditor } from './array-editor'
 import { NumberEditor } from './number-editor'

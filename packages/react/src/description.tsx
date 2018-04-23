@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as common from 'schema-based-json-editor'
+import * as common from 'json-editor-color-label'
 
 export class Description extends React.Component<{
   theme: common.Theme;

@@ -1,12 +1,12 @@
 {
   "name": "json-editor-color-label",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "A reactjs component of schema based json editor.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Miloas/schema-based-json-editor"
+    "url": "https://github.com/Miloas/json-editor-color-label"
   },
   "keywords": [
     "json",

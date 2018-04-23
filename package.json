@@ -9,7 +9,7 @@
     "lint": "clean-scripts lint",
     "test": "clean-scripts test",
     "fix": "clean-scripts fix",
-    "watch": "clean-scripts watch",
+    "watch": "clean-scripts watch"
   },
   "repository": {
     "type": "git",

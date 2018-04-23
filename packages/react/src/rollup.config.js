@@ -11,7 +11,7 @@ export default {
     commonjs()
   ],
   output: {
-    file: 'packages/react/dist/react-schema-based-json-editor.min.js',
+    file: 'packages/react/dist/react-json-editor-color-label.min.js',
     format: 'umd'
   },
   external: [

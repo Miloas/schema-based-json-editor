@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import * as common from 'schema-based-json-editor'
+import * as common from 'json-editor-color-label'
 import { Editor } from './editor'
 import { Icon } from './icon'
 import { Optional } from './optional'

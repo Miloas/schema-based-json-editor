@@ -1,6 +1,6 @@
 {
   "name": "react-json-editor-color-label",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "unpkg": "dist/react-schema-based-json-editor.min.js",
@@ -29,7 +29,7 @@
     "markdown-tip-react": "6",
     "react": "16",
     "react-dom": "16",
-    "schema-based-json-editor": "^7.11.2",
+    "json-editor-color-label": "0.1.0",
     "select2-react-component": "5"
   },
   "devDependencies": {
@@ -46,7 +46,7 @@
     "markdown-tip-react": "6",
     "react": "16",
     "react-dom": "16",
-    "schema-based-json-editor": "^7.11.2",
+    "json-editor-color-label": "0.1.0",
     "select2-react-component": "5"
   }
 }
