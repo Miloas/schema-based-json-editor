@@ -4,7 +4,7 @@ export function getExtraTitleStyleName (title: string | undefined, styleMap: { [
   }
   const greens = ['startDesignButtonTitle', 'hasFilter', 'showChangeButton', 'showEditButton', 'showCollectionButton', 'contentEditorTitle']
   const yellows = ['showSelectContent', 'defaultAutoFillContent', 'useKeywords']
-  const grays = ['showAutoFillContent', 'canEditChannelInput', 'useBrand', 'showBrandInput']
+  const grays = ['showAutoFillContent', 'canEditChannelInput', 'useBrand', 'showBrandInput', 'useNew', 'useScore', 'useSaliencyMap', 'useColor', 'showInPage', 'showInFilter']
   let ret = greens.some(name => title.indexOf(name) > -1)
   if (ret) {
     return styleMap.green
